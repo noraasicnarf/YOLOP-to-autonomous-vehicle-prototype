@@ -5,9 +5,9 @@ An implementation of the YOLOP model into an autonomous vehicle prototype with l
 The network was trained on Nvidia Geforce RTX 3050. YOLOP inference was lowered down from 640 x 640 to 320 x 320 and added 13 class for Object Detection
 ### Prototype System Flow
 ![yolop](pictures/Prototype.jpg)
-To implement the described system, you'll need to have software running on the Raspberry Pi (for capturing images), on the Host PC (for processing YOLOP inference), on the Jetson Nano (for communication with Raspberry Pi and Host PC, and for sending commands to the Arduino), and on the Arduino (for controlling the DC motor based on received commands). Below, I'll provide a high-level overview of the steps involved and then outline the code for each component separately.
+To implement the described system, you'll need to have the Raspberry Pi Cam v2 (for capturing images), on the Host PC (for processing YOLOP inference), on the Jetson Nano (for communication with Raspberry Pi Camera and Host PC, and for sending commands to the Arduino), and on the Arduino (for controlling the DC motor based on received commands). Below, I'll provide a high-level overview of the steps involved and then outline the code for each component separately.
 
-# Raspberry Pi:
+# Raspberry Pi Cam v2:
 
 Capture images using the Raspberry Pi Camera V2.
 Stream the images over Wi-Fi to the Host PC.
