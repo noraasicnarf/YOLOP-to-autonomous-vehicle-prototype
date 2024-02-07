@@ -24,4 +24,3 @@ Forward the commands to the Arduino via USB serial connection.
 
 Receive commands from the Jetson Nano via USB serial connection.
 Interpret the commands and control the DC motor accordingly.
-Turn off the DC motor if the command is 's'.
