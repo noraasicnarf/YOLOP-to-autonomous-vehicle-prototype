@@ -31,6 +31,7 @@ To run the script, use the following command format in your terminal:
 ```bash
 python demo.py [options]
 ```
+**Important**: OpenCV should be built with GStreamer support to properly handle video streams from cameras.
 
 ### Available Arguments
 
